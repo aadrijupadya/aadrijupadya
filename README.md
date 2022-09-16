@@ -12,7 +12,7 @@ Proficient
 
 Beginner/Intermediate
 
-(General Programming) Java, (Algorithms and Arduino Programming) C++, (website development) Javascript, (web/markup) LaTeX; (statistical/data-processing) Excel; (algebra /math processing) MATLAB, (statistical analysis) R, (database/backend) MySQl, PostgreSQL, MongoDB, Flask, (Fullstack development) Ruby
+(General Programming) Java, (Algorithms and Arduino Programming) C++, (website development) Javascript, (web/markup) LaTeX; (statistical/data-processing) Excel; (algebra /math processing) MATLAB, (statistical analysis) R, (database/backend) MySQL, PostgreSQL, MongoDB, Flask, (Fullstack development) Ruby
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aadrijupadya&theme=tokyonight)
