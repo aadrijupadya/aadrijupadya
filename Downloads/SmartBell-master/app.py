@@ -2,6 +2,7 @@ import face_recognition
 import cv2
 import numpy as np
 import os
+import time
 
 # This is a demo of running face recognition on live video from your webcam. It's a little more complicated than the
 # other example, but it includes some basic performance tweaks to make things run a lot faster:
@@ -23,18 +24,15 @@ known_face_encodings = [
 
 ]
 known_face_names = [
-    "Rayyan", "Aadrij", "Rayyan", "Aadrij"
+    "Rayyan", "Aadrij"
 ]
 #     print(i)
 for i in a[0][2]:
     print(i)
     image = face_recognition.load_image_file("rayyan/" + i)
-    # face_encoding = face_recognition.face_encodings(image)[0]
-    a = face_recognition.api.face_landmarks(
-        image, face_locations=None, model='large')
+    face_encoding = face_recognition.face_encodings(image)[0]
 
-    print(a)
-    # known_face_encodings.append(face_encoding)
+    known_face_encodings.append(face_encoding)
 # rayyan_image = face_recognition.load_image_file("rayyan/rayyan_1.png")
 
 # rayyan_face_encoding = face_recognition.face_encodings(rayyan_image)[0]
@@ -45,9 +43,11 @@ face_locations = []
 face_encodings = []
 face_names = []
 process_this_frame = True
+clock = time.clock()
 
 while True:
     # Grab a single frame of video
+    a = clock
     ret, frame = video_capture.read()
 
     # Resize frame of video to 1/4 size for faster face recognition processing
