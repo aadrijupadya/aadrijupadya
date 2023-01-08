@@ -3,6 +3,7 @@
 About Me
 
 * Hi, I'm Aadrij Upadya, a high school junior interested in computer programming. Specifically, I am interested in website and application development, data science and machine learning, and hardware/sensor programming.
+* Research Interests: Computer Vision, Algorithmic Bias, Climate Informatics, Risk Analysis, Sports Analytics
 
 ## 💻 Tech Stack
 
