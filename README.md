@@ -26,13 +26,7 @@ I'm a **CS student at UCLA** passionate about **AI, backend systems, and data-dr
 - 🔎 **[AI Visibility Dashboard (Private)]** – API-based GEO analytics for LLM search and brand tracking.  
 - 🏏 **[CricCatapult](https://github.com/aadrijupadya)** – Cricket analytics library with scraping + YOLO-based ball tracking (20k+ downloads).  
 - 🗺️ **MapNMeet** – MERN-based event discovery platform (serving 40k+ students).  
-- 📈 **Client P&L Summarizer** – GPT-powered financial insights with FastAPI and Redis queues.  
-
----
-
-## 🌟 GitHub Stats  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=aadrijupadya&hide=jupyter%20notebook,css,scss,html&theme=tokyonight)  
-
+- 📈 **Client P&L Summarizer** – GPT-powered financial insights with FastAPI and Redis queues.   
 
 ---
 
